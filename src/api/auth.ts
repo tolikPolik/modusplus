@@ -1,4 +1,5 @@
-export const API_STR = "http://localhost:80";
+//export const API_STR = "http://localhost:80";
+export const API_STR = "https://modusplus-api-production.up.railway.app";
 export const AUTH_TYPE = "Bearer";
 
 export interface IUser {

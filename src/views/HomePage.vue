@@ -2,7 +2,7 @@
   <ion-page>
     <ion-header :translucent="true">
       <ion-toolbar>
-        <ion-title>Modusplus</ion-title>
+        <ion-title>Fire Guard Plus</ion-title>
       </ion-toolbar>
     </ion-header>
 
@@ -50,6 +50,8 @@ const signIn = async () => {
   if (!token) return;
   accessToken.value = token;
   router.push("/main");
+  login.value = "";
+  password.value = "";
 };
 </script>
 
